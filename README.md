@@ -36,11 +36,18 @@ https://www.kaggle.com/datasets/raghavendragandhi/retail-customer-and-transactio
 - Derived interpretable personas suitable for business decision-making and targeted marketing.
 
 ## Repository Structure
-- 2025em1200017_ApexProject_Week9.ipynb — main analysis notebook
-- 2025EM1200017_ApexProject_Report.docx — project report
-- 2025EM1200017_DataDictionary.xlsx — data dictionary
+- notebook/2025em1200017_ApexProject_Week9.ipynb — main analysis notebook
+- report/2025EM1200017_ApexProject_Report.docx — project report
+- report/Retail_Customer_Analytics_Report.pdf — optional report PDF if available
+- data_dictionary/2025EM1200017_DataDictionary.xlsx — data dictionary
+- docs/Problem statement.png — assignment problem statement
+- docs/Week Five Feedback.txt — feedback notes
+- docs/final assignment details.pdf — assignment details PDF
+- images/ — directory for future visual assets
 - README.md — project overview and documentation
 - .gitignore — repository ignore rules
+- LICENSE — MIT license
+- requirements.txt — Python dependencies for reproducing the analysis
 
 ## Future Improvements
 - Add review and support ticket data as post-hoc descriptors for richer profiling.
