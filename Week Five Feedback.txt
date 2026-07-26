@@ -1,0 +1,20 @@
+Advanced Apex Project I - Week 5 Feedback
+
+Overall Feedback:
+Clarify the analysis scope in the final pass instead of rebuilding the pipeline.
+
+Data Preparation & EDA:
+Make an explicit keep/drop/ignore decision for the still-sparse columns you aren't using yet, especially `email`, `phone`, `product_name`, `store_location`, and `payment_method`.
+
+Feature Engineering:
+The customer frame gives this dataset a workable baseline. If you build richer personas later, add only customer attributes that clearly support the segmentation story, such as a small demographic overlay from `customers`.
+
+Progress & Workflow:
+The workflow has reached the right stage for Week 5, with `reviews` and `support_tickets` still awaiting a decision about whether they belong in the final customer profile or stay out of this branch of the project.
+
+Documentation & Reproducibility:
+The section labels and figure naming do most of the work here. Use that explanation style if you expand the customer feature frame further.
+
+Areas to Improve:
+- Make a clear keep/drop/ignore decision for the sparse columns you have not used in analysis, especially `email`, `phone`, `product_name`, `store_location`, and `payment_method`.
+- The four-table integration is still partial, so decide whether `reviews` and `support_tickets` feed the final personas or stay outside this customer-profile branch.
